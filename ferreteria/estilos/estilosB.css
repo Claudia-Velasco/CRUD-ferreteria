@@ -1,0 +1,197 @@
+*{
+    
+    font-family: 'Century Gothic';
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Century Gothic','Verdana';
+}
+.insercion{
+    width: 20%;
+    min-height: 550px;
+    float: left;
+    text-align: center;
+    background: orangered;
+}
+.insercion input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: rgb(114, 20, 34);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+    width: 50%;
+}
+.insercion input[type="submit"]:hover{
+	cursor :pointer;
+	background: #ffc107;
+	color: #000;
+}
+.lateral{
+  width: 75%;
+  height: 500px;
+  float: left;
+  line-height: 22px;
+  text-align: center;
+  background: white;
+    
+}
+.espacio{
+  width: 5%;
+  height: 500px;
+  float: left;
+  line-height: 22px;
+  text-align: center;
+  background: white;
+}
+.icono-tamaño{
+	width: 35px;
+  height: 35px;
+}
+.cuadro{
+  background: white;
+  border: 1px solid #393939;
+  border-radius: 5px 5px 5px 5px;
+  color: #393939;
+  font-size: 15px;
+  padding: 8px;
+  margin: 2px;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid #000;
+}
+
+table tr {
+  border-right: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+}
+
+table thead th,
+table tbody td {
+  padding: .625em;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+table thead th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+table thead tr:first-child {
+  border-left: none;
+  border-right: none;
+}
+
+table thead tr:first-child th {
+  position: relative;
+  padding: 0;
+  background-color: transparent;
+}
+
+.tab {
+  position: relative;
+  left: 1px;
+  display: block;
+  padding: .625em;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+  border-radius: 1em 1em 0 0;
+  background-color: #f8f8f8;
+}
+
+.tab,
+.tab:before,
+.tab:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.modificar input[type="submit"]
+{
+border: none;
+outline: none;
+height: 40px;
+background: rgb(114, 20, 34);
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+  width: 15%;
+}
+.modificar input[type="submit"]:hover{
+cursor :pointer;
+background: #ffc107;
+color: #000;
+}
+  
+.salir input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 30px;
+  background: lightseagreen;
+  color: black;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 15%;
+  margin-top: -800px;
+  margin-left: 900px;
+}
+.salir input[type="button"]:hover{
+  cursor :pointer;
+  background: #ffc107;
+  color: #000;
+} 
+
+.errores{
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0,3);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0,3);
+  -moz-box-shadow:0 0 10px rgba(0,0,0,0,3);
+  background: maroon;
+  box-shadow: 0 0 10px rgba(0,0,0,0,3);
+  color:white;
+  display: none;
+  font-size: 15px;
+  margin-top: -50px;
+  margin-left: 230px;
+  padding: 10px;
+  position: absolute;
+}
+.salir2 input[type="button"]
+{
+border: none;
+outline: none;
+height: 40px;
+background: greenyellow;
+color: black;
+font-size: 18px;
+border-radius: 20px;
+width: 15%;
+margin-top: -500px;
+}
+.salir2 input[type="button"]:hover{
+cursor :pointer;
+background: #ffc107;
+color: #000;
+}
+
+.xml{
+  background-color: grey;
+  margin-top: 10px;
+}

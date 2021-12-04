@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ti, initial-scale=1.0">
+    <!--JQUERY-->
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class='login'>
+        <img src="imagenes/logoGris.png" class="avatar">
+        <h1>Login</h1>
+        <form action="validarLogin.php" method="POST">
+            <p>Nombre de Usuario</p>
+            <input type="text" id ="itUsuario" name="usuario" placeholder="Ingresar nombre de usuario">
+            <div id="mensaje1" class="errores">Requerimos el nombre de usuario </div>
+            <p>Contraseña</p>
+            <input type="password" id="contraseña" name="password" placeholder="Ingresar contraseña">
+            <div id="mensaje2" class="errores">Requerimos la contraseña </div>
+            <input type="submit" id="bEnviar" name="" value="Ingresar">
+        </form>
+     
+    </div>
+</body>
+</html>
+<script>
+    var expr= /^[a-zA-Z ]+$/;
+    $(document).ready(function(){
+        $("#bEnviar").click(function(){
+            var usuario= $("#itUsuario").val();
+            var contraseña =$("#contraseña").val();
+
+            if(usuario==""){
+                $("#mensaje1").fadeIn();
+                return false;
+	
+            }else {
+                $("#mensaje1").fadeOut();
+                if(contraseña==""){
+                    $("#mensaje2").fadeIn();
+                    return false;
+                }
+            }
+        });
+    });
+</script>
